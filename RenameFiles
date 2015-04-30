@@ -1,0 +1,17 @@
+import eyed3, os, Tkinter, tkFileDialog
+
+Tkinter.Tk().withdraw()  # Close the root window
+in_path = tkFileDialog.askdirectory()
+songs = list
+for (in_path, dirs, files) in os.walk(in_path):
+    songs = files
+
+
+print(dirs)
+print(files)
+print("strs");
+
+def getMP3(myList = [], *args):
+    newlist = ()
+    for i in range(0,len(myList)):
+        if(myList[i].)
